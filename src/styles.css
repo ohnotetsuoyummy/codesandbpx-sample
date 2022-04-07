@@ -21,6 +21,11 @@ button:hover {
   cursor: pointer;
 }
 
+p {
+  padding: 0px;
+  margin: 0px 8px 0 0;
+}
+
 .input-area {
   background-color: #c1ffff;
   width: 400px;
@@ -51,4 +56,11 @@ button:hover {
 .title {
   text-align: center;
   margin-top: 0;
+  font-weight: bold;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
 }
